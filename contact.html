@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+  Name:Christopher Sturm
+  Date Created: May 2nd, 2019
+  Most recent revision: May 2nd, 2019
+  -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-frame=no">
+
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+
+<style>
+
+  </style>
+</head>
+<body>
+
+<header class="jumbotron">
+  <div class="container">
+  <h1>Sturm's Bar and Bistro</h1>
+</div>
+</header>
+
+  <nav>
+    <a class="btn badge-pill" href="index.html"><i class="glyphicon glyphicon-home"></i></a>
+      <a class="btn badge-pill" href="menu.html">Our Menu</a>
+      <a class="btn badge-pill" href="contact.html">Contact Us</a>
+      <div style="clear:both"></div>
+    </nav>
+</br>
+<article id="contact">
+  <form action="submit.html" method="Post">
+
+    <label for="Name">Name:</label>
+    <input type="text" id="Name" name="Name" required><br />
+    <br />
+
+    <label for="Email">Email:</label>
+    <input type="email" id="Email" name="Email" required><br />
+    <br />
+
+    <label for="Phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required><br />
+    <br />
+
+    <label for="inquiry">Reason for Inqury:</label>
+    <select id="inquiry" name="inquiry" required>
+      <option value="default" selected>Catering</option>
+      <option value="private">Private Party</option>
+      <option value="feedback">Feedback</option>
+      <option value="other">Other</option>
+    </select><br />
+    <br />
+
+    <label for="info">Additional Information</label>
+    <textarea id="info" name="info"></textarea><br />
+<br />
+
+      <label>Have you been to the restaurant?</label>
+      <input type="radio" id="choice1" name="visit" value="No">
+      <label for="choice1">No</label>
+      <input type="radio" id="choice2" name"visit" value="yes">
+      <label for="choice2">Yes</label><br />
+<br />
+
+      <label>Best days to contact you:</label>
+      <input type="checkbox" id="monday" name="contact" value="monday">
+      <label for="monday">M</label>
+      <input type="checkbox" id="tuesday" name="contact" value="tuesday">
+      <label for="tuesday">T</label>
+      <input type="checkbox" id="wednesday" name="contact" value="wednesday">
+      <label for="wednesday">W</label>
+      <input type="checkbox" id="thursday" name="contact" value="thursday">
+      <label for="thursday">Th</label>
+      <input type="checkbox" id="friday" name="contact" value="friday">
+      <label for="friday">F</label><br />
+      <br />
+
+      <input type="submit" name="submit" value="Send Request">
+
+</article>
+
+  <footer>
+    <p>3850 155th Street W, Rosemount, MN, 55068</p>
+    <p>651-423-4548</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+  </html>
